@@ -14,7 +14,16 @@
         background-color: #1E1E1E;
     }
 
-    a, a:visited, a:hover, a:active {
+    :global(a, a:visited, a:hover, a:active) {
         color: inherit;
+    }
+
+    :global(input) {
+        background-color: #292929;
+        color: white;
+        border: 2px solid #363636;
+        border-radius: 4px;
+        padding: 10px 16px;
+        outline: none;
     }
 </style>
