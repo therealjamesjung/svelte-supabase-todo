@@ -19,7 +19,7 @@
 		color: inherit;
 	}
 
-	:global(input) {
+	:global(input, textarea) {
 		background-color: #292929;
 		color: white;
 		border: 2px solid #363636;
